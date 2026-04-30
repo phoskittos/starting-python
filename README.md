@@ -4,3 +4,7 @@
 
 ### Resources that I am using
 - python crash course book
+
+### Progress:
+- [] Part 1
+- [] Part 2
