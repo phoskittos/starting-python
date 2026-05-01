@@ -1,0 +1,1 @@
+### these exercises are the exercises that appear as activities in the book.
