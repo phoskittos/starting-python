@@ -1,0 +1,2 @@
+favorite_number=67
+print(favorite_number)
