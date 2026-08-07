@@ -1,0 +1,35 @@
+invitados = ["einstein", "orslok", "trakatra", "jose antonio"]
+
+invitados.insert(0, "jeffrey epstein")
+invitados.insert(3, "didi")
+invitados.append("pablo motos")
+
+print("Hola " + invitados[0] + " estas invitado a mi fiesta")
+print("Hola " + invitados[1] + " estas invitado a mi fiesta")
+print("Hola " + invitados[2] + " estas invitado a mi fiesta")
+print("Hola " + invitados[3] + " estas invitado a mi fiesta")
+print("Hola " + invitados[4] + " estas invitado a mi fiesta")
+print("Hola " + invitados[5] + " estas invitado a mi fiesta")
+print("Hola " + invitados[6] + " estas invitado a mi fiesta")
+
+print("Solo puedo invitar dos personas")
+
+nombre = invitados.pop()
+print (nombre + " ya no esta invitado")
+nombre = invitados.pop()
+print (nombre + " ya no esta invitado")
+nombre = invitados.pop()
+print (nombre + " ya no esta invitado")
+nombre = invitados.pop()
+print (nombre + " ya no esta invitado")
+nombre = invitados.pop()
+print (nombre + " ya no esta invitado")
+
+print(invitados)
+
+print("Hola " + invitados[0] + " sigues invitado a mi fiesta")
+print("Hola " + invitados[1] + " sigues invitado a mi fiesta")
+
+#Longitud lista invitados
+longitud = len(invitados)
+print("He invitado a " + str(longitud) + " personas")
